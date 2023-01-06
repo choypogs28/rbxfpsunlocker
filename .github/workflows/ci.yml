@@ -42,6 +42,7 @@ jobs:
         with:
           name: rbxfpsunlocker (Release, x64)
           path: x64
+          path: listing
       - name: Zip binaries
         run: zip -9 ../rbxfpsunlocker-x64.zip rbxfpsunlocker.exe
         working-directory: ./x64
